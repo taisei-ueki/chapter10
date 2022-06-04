@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+  
+a{
+  text-decoration:none;
+  
+}
+.header{
+  width: 100%;
+  height:50px;
+  background-color: #FF9A4B
+  
+  
+}
+.main{
+  width: 960px;
+
+}
+.blog{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.blog-item{
+  width: 300px;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-color: #EEEEEE;
+}
+.step{
+  background-color: #FF9A4B;
+  color:#fff;
+  position: absolute;
+  
+}
+.blog-image{
+  height: 150px;
+  background-image: url(flow01.png);
+  background-position: center;
+  background-size:cover; 
+  margin:10px;
+}
+
+.blog-image-2{
+  height: 150px;
+  background-image: url(flow02.png);
+  background-position: center;
+  background-size:cover; 
+  margin:10px;
+}
+.blog-image-3{
+  height: 150px;
+  background-image: url(flow03.png);
+  background-position: center;
+  background-size:cover; 
+  margin:10px;
+}
+.blog-title{
+  margin: 15px 5px 5px;
+}
+.blog-text{
+  margin:5px;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #AAAAAA
+  
+}
+
+
+@media screen and (max-width: 768px) {
+  .main{
+    width: 100%;
+    
+  }
+  .blog{
+    width: 100%;
+    display: block;
+    
+  }
+  .blog-item{
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 5%;
+  
+  }
+}
